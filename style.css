@@ -1,0 +1,501 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Navigation Bar */
+
+
+
+
+
+
+nav{
+    background-color: #fff;
+    width: 100%;
+    position: fixed;
+    height: 5.6rem;
+}
+
+nav .logo{
+    width: 15rem;
+    height: 7rem;
+    margin-top: -1rem;
+    margin-left: -1rem;
+
+}
+nav a:hover{
+    color: #415fff;
+}
+nav ul{
+    float: right;
+    margin-right: 2rem;
+
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 0.6rem;
+    margin-top: 2.19rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-family: initial;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+nav ul .icon-pro-1{
+    font-size: 2rem;
+}
+
+nav ul .icon-pro-1:hover{
+    color: #415fff;
+}
+
+nav ul .icon-pro{
+    font-size: 2rem;
+    padding-left: 1rem;
+    
+}
+
+nav ul .icon-pro:hover{
+    color: #415fff;
+}
+nav  .checkbtn{
+        font-size: 2.8rem;
+    float: left;
+    padding-left: 1.2rem;
+    padding-top: 1.5rem;
+    display: none;
+    cursor: pointer;
+}
+
+nav #check{
+    display: none;
+}
+
+/* End of navigation bar */
+
+
+/* Banner */
+
+.banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./images/9c3492aab8789d4c180f8006849d1a61.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+}
+
+/* End of headder */
+
+/* Banner container  */
+
+.banner-contaner{
+    width: 90%;
+}
+.banner-contaner .banner-1 img{
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 6rem;
+    border-radius: 9rem 7rem 7rem 8rem;
+    cursor: zoom-in;
+    transition: 1s;
+    padding-bottom: 4rem;
+
+}
+
+
+.banner-contaner .banner-1 img:hover{
+    transform: scale(1.1,1.1);
+}
+
+
+/* End Banner */
+
+/* Mid */
+
+.gallery{
+    background: rgb(240, 242, 245);
+    width: 100%;
+    padding: 2rem;
+    height: 150vh;
+
+
+}
+.gallery .gallery-box {
+    box-sizing: content-box;
+}
+.gallery .gallery-box h1{
+    font-family: ui-monospace;
+    font-weight: 500;
+    letter-spacing: 8px;
+    padding-bottom: 38px;
+    padding-left: 2rem;
+    font-size: 3rem;
+
+}
+
+
+/* Row 1  */
+
+
+.gallery .gallery-box .row-1{
+
+    height: 124vh;
+}
+.gallery .gallery-box .card{
+    background-color: #ffff;
+    width: 24.3rem;
+    border-radius: 39px;
+    height: 21rem;
+    transition: all .5s;
+}
+.gallery .gallery-box .card:hover{
+    transform: scale(1.1,1.1);
+}
+.gallery .gallery-box .card img{
+    border-radius: 36px;
+    width: 100%;
+    height: 80%;
+}
+
+
+.gallery .gallery-box .card .card-container h4{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+.gallery .gallery-box .card .card-container p{
+    padding-left: 1rem;
+    font-size: 1rem;
+}
+.gallery .gallery-box .card-1{
+    background-color: #fff;
+    width: 94%;
+    border-radius: 42px;
+    height: 115vh;
+    transition: all 0.5s;
+}
+.gallery .gallery-box .card-1:hover{
+    transform: scale(1.1,1.1);
+}
+.gallery .gallery-box .card-1 img{
+    border-radius: 36px;
+    width: 100%;
+    height: 100%;
+}
+
+.gallery .gallery-box  .coloum{
+    float: left;
+    width: 32%;
+
+}
+.gallery .gallery-box .coloum-1{
+    float: left;
+    width: 30%;
+
+}
+
+
+.gallery .gallery-box .card-2{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 42px;
+    height: 21rem;
+    transition: all 0.5s;
+}
+.gallery .gallery-box .card-2:hover{
+    transform: scale(1.1,1.1);
+}
+.gallery .gallery-box .card-2 img{
+    border-radius: 36px;
+    width: 100%;
+    height: 70%;
+    transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+}
+
+.gallery .gallery-box .coloum-2{
+    float: left;
+    width: 30%;
+
+}
+.gallery .gallery-box .card-2 .card-container h4{
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+.gallery .gallery-box .card-2 .card-container p{
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+}
+
+
+
+
+
+.gallery .gallery-box .card-3{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 42px;
+    height: 21rem;
+    transition: all .5s;
+}
+.gallery .gallery-box .card-3:hover{
+    transform: scale(1.1,1.1);
+}
+.gallery .gallery-box .card-3 img{
+    border-radius: 36px;
+    width: 100%;
+    height: 70%;
+    transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+}
+
+.gallery .gallery-box .coloum-3{
+    float: left;
+    padding-top: 2rem;
+    width: 30%;
+
+}
+.gallery .gallery-box .card-3 .card-container h4{
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+.gallery .gallery-box .card-3 .card-container p{
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+}
+
+
+.gallery .gallery-box .card-4{
+    background-color: #fff;
+    width: 100%;
+    border-radius: 42px;
+    height: 15.3rem;
+    margin-top: -10rem;
+    transition: all 0.5s;
+
+}
+.gallery .gallery-box .card-4:hover{
+    transform: scale(1.1,1.1);
+}
+.gallery .gallery-box .card-4 img{
+    border-radius: 36px;
+    width: 100%;
+    height: 70%;
+    transition: transform 0.5s ease 0s, -webkit-transform 0.5s ease 0s;
+    margin-top: -14rem;
+
+}
+
+.gallery .gallery-box .coloum-4{
+    padding-top: 46rem;
+    width: 30%;
+
+}
+.gallery .gallery-box .card-4 .card-container h4{
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 1rem;
+}
+.gallery .gallery-box .card-4 .card-container p{
+    padding-left: 2rem;
+    font-size: 1rem;
+    padding-top: 0.2rem;
+}
+
+
+
+
+/* End row 1 */
+
+
+
+/* Footter  */
+
+.footer{
+    display: block;
+    background-color: #242933;
+}
+
+.footer .footer-box {
+    margin: 0 80px;
+    padding-top: 3rem;
+}
+
+.footer .footer-box ul{
+    display: flex;
+}
+.footer .footer-box li{
+    width: 170px;
+    margin-right: 16px;
+    float: left;
+}
+
+.footer .footer-box  dl{
+    margin: 0;
+}
+.footer .footer-box dt {
+    font-size: 16px;
+    line-height: 18px;
+    color: #fff;
+    padding-bottom: 18px;
+}
+.footer .footer-box dd{
+    padding-top: 22px;
+}
+.footer .footer-box a{
+    font-size: 14px;
+    font-family: fangsong;
+    line-height: 18px;
+    color: #8a8f99;
+    word-break: break-word;
+    -webkit-transition: color .4s;
+    -o-transition: color .4s;
+    -moz-transition: color .4s;
+    transition: color .4s;
+    text-decoration: none;
+}
+
+.footer .footer-box a:hover{
+    color: #415fff;
+}
+.footer-box-2 a{
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    outline: 0;
+    padding-top: 1rem;
+    letter-spacing: 0.1px;
+}
+
+.footer-box-2 i{
+    font-size: 2rem;
+}
+
+.footer-box-2 span{
+    width: 28px;
+    height: 28px;
+    font-size: 1.5rem;
+    line-height: 28px;
+    text-align: center;
+    color: #c2c5cc;
+    margin-right: 6px;
+    -webkit-transition: color .4s;
+    -o-transition: color .4s;
+    -moz-transition: color .4s;
+    transition: color .4s;
+    font-family: revert;
+}
+.footer-box-2 .call .span-1{
+    width: 28px;
+    height: 28px;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    color: #c2c5cc;
+    margin-right: 6px;
+    -webkit-transition: color .4s;
+    -o-transition: color .4s;
+    -moz-transition: color .4s;
+    transition: color .4s;
+}
+.footer-box-2 .call .span-1:hover{
+    color: #415fff;
+}
+
+.footer-box-2 .call .span-2{
+    width: 28px;
+    height: 28px;
+    font-size: 35px;
+    line-height: 28px;
+    margin-left: 2rem;
+    text-align: center;
+    color: #415fff;
+    margin-right: 6px;
+    -webkit-transition: color .4s;
+    -o-transition: color .4s;
+    -moz-transition: color .4s;
+    transition: color .4s;
+}
+
+.footer-box-2  .call i{
+    font-size: 1.5rem;
+}
+
+.footer-box-2 span:hover{
+    color: #415fff;
+}
+.footer-box-2 .follow-icon a{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 1000px){
+
+    /* Headder */
+    nav .logo{ 
+        width: 88%;
+    }
+    nav .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #fff;
+        text-align: center;
+        left: -200%;
+        transition: all .5S;
+        margin-top: -1rem;
+
+    }
+    nav ul li{
+        display: block;
+    }
+    nav #check:checked ~ ul {
+        left: 0;
+
+    }
+    .banner {
+        width: 100%;
+        background-image: url(./images/4a4a5d8e0515389f0b617fbb0bb95cac.jpeg);
+        background-repeat: no-repeat;
+        
+    }
+
+    /* End of headder */
+
+    /* banner container */
+
+    .banner-contaner{
+           width: 84%;
+    }
+    .banner-contaner .banner-1 img{
+        border-radius: 0rem;
+        width: 90%;
+        padding-top: 2rem;
+        border-radius: 0rem 0rem 0rem 0rem;
+        padding-bottom: 1rem;
+    }
+
+}
